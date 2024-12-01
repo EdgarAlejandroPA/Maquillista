@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - "14" # Versión de Node.js que deseas usar
+install:
+  - npm install
+script:
+  - npm test # Comando para correr las pruebas
