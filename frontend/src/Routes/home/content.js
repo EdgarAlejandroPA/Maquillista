@@ -23,14 +23,14 @@ export const Content = () => {
   return (
     <div
       style={{
-        padding: "16px",
-        backgroundColor: "#FFFAF4", // Rosa tenue para el fondo
+        padding: "10px",
+        backgroundColor: "#FFFAF1",
         minHeight: "100vh",
       }}
     >
       <header
         style={{
-          backgroundColor: "#F8C8DC", // Rosa pastel para el header
+          backgroundColor: "#F06292",
           padding: "16px",
           textAlign: "center",
           marginBottom: "16px",
@@ -41,17 +41,17 @@ export const Content = () => {
           style={{
             color: "#000",
             padding: "8px",
-            backgroundColor: "#F06292", // Rosa más oscuro para el recuadro
+            backgroundColor: "#F06292",
             display: "inline-block",
             borderRadius: "8px",
           }}
         >
-          Karla Rangel
+          RangelBeautyStudio
         </Typography>
       </header>
 
       <Typography variant="h4" gutterBottom>
-        Información del Maquillista
+        Información de Maquillista
       </Typography>
 
       {makeupArtist ? (
@@ -62,7 +62,7 @@ export const Content = () => {
           style={{
             marginBottom: "16px",
             cursor: "pointer",
-            backgroundColor: "#E1BEE7", // Morado tenue
+            backgroundColor: "#E1BEE7",
             color: "#000",
           }}
         >
@@ -86,7 +86,7 @@ export const Content = () => {
             <Grid item xs={12} sm={6} md={4} key={product.id}>
               <Card
                 style={{
-                  backgroundColor: "#E1BEE7", // Morado tenue
+                  backgroundColor: "#E1BEE7",
                   color: "#000",
                 }}
               >
